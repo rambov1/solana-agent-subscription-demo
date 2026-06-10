@@ -54,10 +54,10 @@ delegation PDA, token accounts, and a three-instruction sequence:
 2. Subscriber accepts the plan.
 3. Authorized puller collects the subscription payment.
 
-This repository does not include or require private keys. It uses no-op signers
-so the instruction shape can be inspected safely. A production integration would
-replace those signers with wallet adapter, server wallet, or hardware-backed
-signers and then send the instructions through a Solana RPC client.
+This repository uses no-op signers so the instruction shape can be inspected
+safely. A production integration would replace those signers with wallet
+adapter, server wallet, or hardware-backed signers and then send the
+instructions through a Solana RPC client.
 
 ## Test
 

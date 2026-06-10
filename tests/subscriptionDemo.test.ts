@@ -20,7 +20,7 @@ describe("Northstar Solana subscription demo", () => {
     ]);
   });
 
-  it("derives stable addresses without private keys", async () => {
+  it("derives stable addresses from public inputs", async () => {
     const first = await deriveDemoAddresses();
     const second = await deriveDemoAddresses();
 
