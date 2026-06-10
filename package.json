@@ -1,0 +1,32 @@
+{
+  "name": "solana-agent-subscription-demo",
+  "version": "0.1.0",
+  "description": "Code sample for Solana native subscriptions and allowances powering recurring API access for AI-agent data products.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "demo": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "solana",
+    "subscriptions",
+    "allowances",
+    "usdc",
+    "agent-commerce",
+    "pay-sh"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@solana-program/token": "^0.13.0",
+    "@solana/kit": "^6.9.0",
+    "@solana/subscriptions": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.6"
+  }
+}
